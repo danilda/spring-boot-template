@@ -2,9 +2,7 @@ package com.spring.boot.springboot;
 
 import com.spring.boot.springboot.db.Customer;
 import com.spring.boot.springboot.db.CustomerRepository;
-import jdk.nashorn.internal.objects.annotations.Setter;
 import org.h2.tools.Server;
-import org.hibernate.jpa.internal.EntityManagerImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -16,13 +14,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
-
-import javax.persistence.EntityManager;
-import javax.sql.DataSource;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 
 @SpringBootApplication
 @Configuration
